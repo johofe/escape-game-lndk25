@@ -240,6 +240,11 @@ config.footer.left: &#39;[[Impressum]]&#39;
  h1, h2, h3, p {
   text-align: center;
  }
+ 
+ img {
+  display: block;
+  margin: auto;
+ }
 
 [continued]
 
@@ -287,6 +292,12 @@ config.footer.left: &#39;[[Impressum]]&#39;
  &lt;div class=&quot;puzzle&quot;&gt;
   &lt;p&gt;Du brauchst einen Zahlencode! Aber wie kommst du nur dazu? Hm... vielleicht haben diese Bilder etwas damit zu tun... Findest du sie in der Kirche? Ich glaube, die Reihenfolge ist auch sehr wichtig!&lt;/p&gt;
 &lt;/div&gt;
+&lt;img src=&#39;./img/begegnet_Mutter_4.jpg&#39; alt=&#39;4. Station Jesus begegnet seiner Mutter&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/Kleider_beraubt_10.jpg&#39; alt=&#39;10. Station Jesus wird seiner Kleider beraubt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;br/&gt;
+&lt;img src=&#39;./img/Grab_gelegt_14.jpg&#39; alt=&#39;14. Station Jesus wird ins Grab gelegt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/schweisstuch_6.jpg&#39; alt=&#39;6. Station Veronika reicht Jesus das Schweißtuch&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;br/&gt;
 {text input for: &#39;code&#39;, required: true}
 [[Weiter -&gt;Test_Code]]
 
@@ -426,7 +437,7 @@ Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsber
  
 [continued]
  
-[if code === &#39;12345&#39; | code === &#39;1 2 3 4 5&#39;]
+[if code === &#39;410146&#39; | code === &#39;4 10 14 6&#39;]
 
 Sehr gut! Du hast den richtigen Code gefunden! Um zu erfahren, was die Arbeiter ausgegraben haben, musst du aber noch mehr Rätsel lösen.
 [[Weiter -&gt; Nothelfer]] 
@@ -472,6 +483,8 @@ Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich d
  
 [if name_saint === &#39;Christophorus&#39; | name_saint === &#39;christophorus&#39;]
 
+&lt;img src=&#39;./img/vierzehn_Nothelfer.jpg&#39; alt=&#39;Bild der vierzehn Nothelfer&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;br/&gt;
 Das ist richtig! Der Hl. Christophorus ist übrigens nicht nur einer der 14 Nothelfer, sondern auch der Schutzpatron der Reisenden. Der Legende nach war Christophorus ein Riese, der das Christuskind über einen Fluss getragen hat.
 
 [[Weiter -&gt;  Geschichte2]] 
@@ -742,6 +755,8 @@ Sie sind schwer und bei einem kann man nicht mehr viel erkennen. Niemand weiß, 
 [continued]
  
 &lt;div class=&quot;puzzle&quot;&gt;
+&lt;img src=&#39;./img/eucharistie.jpg&#39; alt=&#39;Symbol für das Sakrament der Eucharistie&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;br/&gt;
 &lt;p&gt;Dieses Symbol findest du irgendwo in der Kirche. Es ist nicht sehr groß, also musst du sehr genau schauen. Du suchst danach am besten vor dem Marienaltar!&lt;/p&gt;
 &lt;p&gt;Wie viele Symbole kannst du dort insgesamt finden?&lt;/p&gt;
 &lt;/div&gt;
