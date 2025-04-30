@@ -317,16 +317,20 @@ img {
  
 [continued]
  
-  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
- &lt;progress id=&quot;game&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;50%&lt;/progress&gt;
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Bevor du dir die Audiodatei anhörst, geh bitte hinaus! So störst du in der Kirche niemanden und du kannst die Lautstärke höher einstellen.&lt;/p&gt;
+&lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+&lt;progress id=&quot;game&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;50%&lt;/progress&gt;
+Bevor du dir die Audiodatei anhörst, geh bitte hinaus! So störst du in der Kirche niemanden und du kannst die Lautstärke höher einstellen.
+&lt;br/&gt;
+Hör ganz genau hin! Erkennst du das Kinderlied? Welche Vogelarten kommen vor?
+&lt;br/&gt;
 &lt;audio controls&gt;
 &lt;source src=&quot;&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-[[Weiter -&gt; Geschichte3]]</tw-passagedata><tw-passagedata pid="5" name=" Glocken" tags="" position="300,1625" size="100,100">[CSS]
+&lt;br/&gt;
+Die erste Vogelart hat fast dieselben Buchstaben in fast derselben Reihenfolge wie ein sehr wichtiges Wort am Ende eines Gebets.
+{text input for: &#39;amen&#39;}
+
+[[Weiter -&gt; Test_Orgel.Musik]]</tw-passagedata><tw-passagedata pid="5" name=" Glocken" tags="" position="300,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -604,7 +608,7 @@ Text
 
 
 [continued]
-</tw-passagedata><tw-passagedata pid="17" name="Impressum" tags="" position="850,525" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
+</tw-passagedata><tw-passagedata pid="17" name="Impressum" tags="" position="900,200" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
 --
 [CSS]
 #page {
@@ -721,7 +725,7 @@ Omega: {dropdown menu for: &#39;omega&#39;, choices: [&#39;&#39;,&#39;O&#39;, &#
 Diese Nummern sind nicht die Seiten im Gotteslob, sondern die Nummern der Lieder. Die Zahl rechts neben dem Schrägstrich meint die Strophe, in der du nachschauen sollst.
 {text input for: &#39;true_song_code&#39;, required: true}
 [[Weiter -&gt; Test_True_Song_Code]]
-[continue]</tw-passagedata><tw-passagedata pid="23" name=" Geschichte3" tags="" position="425,1375" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="23" name=" Geschichte3" tags="" position="400,1375" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1428,4 +1432,33 @@ Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, 
  
 Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt. 
 
-[[Weiter -&gt; Kirchentür.schwer]]</tw-passagedata></tw-storydata></html>
+[[Weiter -&gt; Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="60" name=" Test_Orgel.Musik" tags="" position="475,1225" size="100,100">[CSS]
+#page {
+  background-color: #a41c5c;
+}
+
+#backdrop {
+  background-color: white;
+  color: white;
+ }
+ 
+[continued]
+ 
+[if amen === &#39;Amen&#39; | amen === &#39;amen&#39;]
+
+Stimmt! &quot;Amsel&quot; und &quot;Amen&quot; haben sehr viele gemeinsame Buchstaben und klingen auch ähnlich!
+&lt;br/&gt;
+&quot;Amen&quot; kommt aus dem Hebräischen und bedeutet übersetzt &quot;So sei es&quot;. Wenn du dieses Wort am Ende eines Gebets, Segens oder Rede sagst, dann bestätigst du damit, dass du hinter dem Gesagten stehst.
+
+[[Weiter -&gt; Geschichte3]]
+
+[else]
+
+Hm...Die erste Vogelart, die in dem Lied vorkommt, ist eine Amsel. Wenn du das s weglässt und das l mit einem n austauschst, kommst du zu dem gesuchten Wort!
+
+{back link, label: &#39;Zurück&#39;}
+
+[continued]
+
+[continue]
+</tw-passagedata></tw-storydata></html>
