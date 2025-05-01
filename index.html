@@ -252,8 +252,10 @@ config.footer.left: &#39;[[Impressum]]&#39;
 &lt;h2&gt;Escape Game&lt;/h2&gt;
 &lt;h3&gt;Pfarrkirche Markersdorf St. Martin&lt;/h3&gt;
 &lt;img src=&#39;./img/pfarre_markersdorf_farbe_HG_weiss.png&#39; alt=&#39;Logo der Pfarre Markersdorf St. Martin&#39; width=&#39;112,5&#39; height=&#39;200&#39; /&gt;
-&lt;p&gt;[[Leicht -&gt;Hinweis_Spiel_leicht]]&lt;/p&gt;
-&lt;p&gt;[[Schwer -&gt; Hinweis_Spiel_schwer]]&lt;/p&gt;
+
+[[Leicht -&gt;Hinweis_Spiel_leicht]]
+
+[[Schwer -&gt; Hinweis_Spiel_schwer]]
 </tw-passagedata><tw-passagedata pid="2" name=" Kreuzweg" tags="" position="350,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
@@ -273,15 +275,14 @@ img {
  
  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;10&quot; max=&quot;100&quot;&gt;10%&lt;/progress&gt;
- &lt;div class=&quot;puzzle&quot;&gt;
-  &lt;p&gt;Du brauchst einen Zahlencode! Aber wie kommst du nur dazu? Hm... vielleicht haben diese Bilder etwas damit zu tun... Findest du sie in der Kirche? Ich glaube, die Reihenfolge ist auch sehr wichtig!&lt;/p&gt;
-&lt;/div&gt;
-&lt;img src=&#39;./img/begegnet_Mutter_4.jpg&#39; alt=&#39;4. Station Jesus begegnet seiner Mutter&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;img src=&#39;./img/Kleider_beraubt_10.jpg&#39; alt=&#39;10. Station Jesus wird seiner Kleider beraubt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
-&lt;img src=&#39;./img/Grab_gelegt_14.jpg&#39; alt=&#39;14. Station Jesus wird ins Grab gelegt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;img src=&#39;./img/schweisstuch_6.jpg&#39; alt=&#39;6. Station Veronika reicht Jesus das Schweißtuch&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
+
+Du brauchst einen Zahlencode! Aber wie kommst du nur dazu? Hm... vielleicht haben diese Bilder etwas damit zu tun... Findest du sie in der Kirche? Ich glaube, die Reihenfolge ist auch sehr wichtig!
+
+&lt;img src=&#39;./img/begegnet_Mutter_4.jpg&#39; alt=&#39;Jesus begegnet seiner Mutter&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/Kleider_beraubt_10.jpg&#39; alt=&#39;Jesus wird seiner Kleider beraubt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/Grab_gelegt_14.jpg&#39; alt=&#39;Jesus wird ins Grab gelegt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/schweisstuch_6.jpg&#39; alt=&#39;Veronika reicht Jesus das Schweißtuch&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+
 {text input for: &#39;code&#39;, required: true}
 [[Weiter -&gt;Test_Code]]
 
@@ -300,9 +301,8 @@ img {
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Irgendwie sehen sie aus wie die Nummern von den Liedern, die wir immer in der Messe singen. Schlage doch einmal das Lied mit der ersten Nummer auf und schau dir den Text genau an. Ich glaube, du kommst dann auf eine andere Zahl!&lt;/p&gt;
-&lt;/div&gt;
+Irgendwie sehen sie aus wie die Nummern von den Liedern, die wir immer in der Messe singen. Schlage doch einmal das Lied mit der ersten Nummer auf und schau dir den Text genau an. Ich glaube, du kommst dann auf eine andere Zahl!
+
 {text input for: &#39;true_song_code&#39;, required: true}
 [[Weiter -&gt; Test_True_Song_Code]]
 [continue]</tw-passagedata><tw-passagedata pid="4" name=" Orgel.Musik" tags="" position="325,1225" size="100,100">[CSS]
@@ -319,17 +319,18 @@ img {
  
 &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
 &lt;progress id=&quot;game&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;50%&lt;/progress&gt;
-Bevor du dir die Audiodatei anhörst, geh bitte hinaus! So störst du in der Kirche niemanden und du kannst die Lautstärke höher einstellen.
-&lt;br/&gt;
+
+Bevor du dir die Audiodatei anhörst, geh bitte hinaus! So störst du in der Kirche niemanden und du kannst die Lautstärke erhöhen, damit du das Lied gut hörst.
+
 Hör ganz genau hin! Erkennst du das Kinderlied? Welche Vogelarten kommen vor?
-&lt;br/&gt;
+
 &lt;audio controls&gt;
 &lt;source src=&quot;&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
-&lt;br/&gt;
-Die erste Vogelart hat fast dieselben Buchstaben in fast derselben Reihenfolge wie ein sehr wichtiges Wort am Ende eines Gebets.
-{text input for: &#39;amen&#39;}
 
+Die erste Vogelart hat fast dieselben Buchstaben in fast derselben Reihenfolge wie ein sehr wichtiges Wort am Ende eines Gebets.
+
+{text input for: &#39;amen&#39;}
 [[Weiter -&gt; Test_Orgel.Musik]]</tw-passagedata><tw-passagedata pid="5" name=" Glocken" tags="" position="300,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
@@ -344,9 +345,9 @@ Die erste Vogelart hat fast dieselben Buchstaben in fast derselben Reihenfolge w
  
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;70&quot; max=&quot;100&quot;&gt;70%&lt;/progress&gt;
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Vier Stimmen wachen über uns gern,&lt;br/&gt;rufen laut, doch nie von fern.&lt;br/&gt;Josef holt die Leute rein,&lt;br/&gt;Maria singt mit Engelein.&lt;br/&gt;Martin tut auch allen kund,&lt;br/&gt;Karl erklingt zur letzten Stund.&lt;br/&gt;Kennst du uns, so sage mir:&lt;br/&gt;Was sind wir?&lt;/p&gt;
-&lt;/div&gt;
+
+Vier Stimmen wachen über uns gern,&lt;br/&gt;rufen laut, doch nie von fern.&lt;br/&gt;Josef holt die Leute rein,&lt;br/&gt;Maria singt mit Engelein.&lt;br/&gt;Martin tut auch allen kund,&lt;br/&gt;Karl erklingt zur letzten Stund.&lt;br/&gt;Kennst du uns, so sage mir:&lt;br/&gt;Was sind wir?
+
 {text input for: &#39;bells&#39;}
 [[Weiter -&gt; Test_Bells]]
 [continue]</tw-passagedata><tw-passagedata pid="6" name=" Abkürzung" tags="" position="425,1775" size="100,100">[CSS]
@@ -361,11 +362,13 @@ Die erste Vogelart hat fast dieselben Buchstaben in fast derselben Reihenfolge w
  
 [continued]
  
-Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt. &lt;br/&gt;
-&lt;p&gt;Du hast bisher alle Rätsel hervorragend gelöst!&lt;/p&gt;
-&lt;p&gt;An dieser Stelle kannst du dich jetzt entscheiden: Möchtest du noch weitere Rätsel lösen oder schon zur Auflösung kommen?&lt;/p&gt;
+Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt.
+
+Du hast bisher alle Rätsel hervorragend gelöst!
+An dieser Stelle kannst du dich jetzt entscheiden: Möchtest du noch weitere Rätsel lösen oder schon zur Auflösung kommen?
 
 [[Auflösung -&gt; Ende]]
+
 [[Weiterspielen -&gt; Tiere]]</tw-passagedata><tw-passagedata pid="7" name=" Ende" tags="" position="600,2125" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
 --
 [CSS]
@@ -381,10 +384,15 @@ Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöck
 [continued]
 
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
- &lt;progress id=&quot;game&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress&gt;&lt;br/&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress
+ 
 Experten werden gerufen. Wochen später ist es offiziell:
-Es sind Spolien – Überreste einer römischen Siedlung, eingearbeitet in die Fundamente einer uralten romanischen Kirche. Mehr als tausend Jahre lag ihr Geheimnis im Boden verborgen.&lt;br/&gt;Spolien sind Bauteile, die aus einer früheren Zeit stammen und später in einem neuen Bauwerk wiederverwendet wurden. Die zwei Römersteine sind Grabsteine. Sie zeigen zum einen zwei Magistratsdiener eines Beamten aus St. Pölten, das damals Aelium Caetium hieß und zum anderen einen Amtsstuhl für höhere Magistraten in der römischen Antike, genannt sella curulis.
+Es sind Spolien – Überreste einer römischen Siedlung, eingearbeitet in die Fundamente einer uralten romanischen Kirche. Mehr als tausend Jahre lag ihr Geheimnis im Boden verborgen.
+
+Spolien sind Bauteile, die aus einer früheren Zeit stammen und später in einem neuen Bauwerk wiederverwendet wurden. Die zwei Römersteine sind Grabsteine. Sie zeigen zum einen zwei Magistratsdiener eines Beamten aus St. Pölten, das damals Aelium Caetium hieß und zum anderen einen Amtsstuhl für höhere Magistraten in der römischen Antike, genannt sella curulis.
+
 Unter der Kirche, zwischen Mauern aus Mittelalter und Neuzeit, lag ein Schatz der Geschichte – und ihr habt ihn gefunden.
+
 Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.</tw-passagedata><tw-passagedata pid="8" name=" Tiere" tags="" position="300,1925" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
@@ -399,19 +407,22 @@ Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsber
  
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;80%&lt;/progress&gt;
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Tiere spielen im Christentum eine große Rolle als Symbole. Zum Beispiel werden  die Evangelisten Markus, Lukas und Johannes oft als Löwe, Stier und Adler dargestellt.&lt;/p&gt;
-&lt;p&gt;Sieh dich in unserer Kirche um. Auch hier kannst du ein paar Tiere sehen. Ich habe vier verschiedene beim Marien- und Hochaltar und bei der Kanzel gefunden. Welche sind es?&lt;/p&gt;
-&lt;/div&gt;
+
+Tiere spielen im Christentum eine große Rolle als Symbole. Zum Beispiel werden  die Evangelisten Markus, Lukas und Johannes oft als Löwe, Stier und Adler dargestellt.
+
+Sieh dich in unserer Kirche um. Auch hier kannst du ein paar Tiere sehen. Ich habe vier verschiedene beim Marien- und Hochaltar und bei der Kanzel gefunden. Welche sind es?
+
 Wenn du hier auf jedes Tier tippst, ändert es sich. Tippe so oft darauf, sodass am Ende die richtigen vier Tiere aufscheinen.
+
 [continue]
 {cycling link for: &#39;animal1&#39;, choices: [&#39;Hund&#39;, &#39;Katze&#39;, &#39;Tiger&#39;, &#39;Pferd&#39;]}
-&lt;br/&gt;
+
 {cycling link for: &#39;animal2&#39;, choices: [&#39;Stier&#39;, &#39;Taube&#39;, &#39;Maus&#39;, &#39;Eidechse&#39;]}
-&lt;br/&gt;
+
 {cycling link for: &#39;anima3&#39;, choices: [&#39;Löwe&#39;, &#39;Känguru&#39;, &#39;Käfer&#39;, &#39;Fisch&#39;]}
-&lt;br/&gt;
+
 {cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
+
 [[Weiter -&gt; Test_Animals]]</tw-passagedata><tw-passagedata pid="9" name="Test_Code" tags="" position="475,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
@@ -427,11 +438,13 @@ Wenn du hier auf jedes Tier tippst, ändert es sich. Tippe so oft darauf, sodass
 [if code === &#39;410146&#39; | code === &#39;4 10 14 6&#39;]
 
 Sehr gut! Du hast den richtigen Code gefunden! Um zu erfahren, was die Arbeiter ausgegraben haben, musst du aber noch mehr Rätsel lösen.
+
 [[Weiter -&gt; Nothelfer]] 
 
 [else]
 
 Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich dir einen kleinen Tipp.
+
 [[Tipp -&gt; Code_Hinweis1]]
 
 [continued]
@@ -451,11 +464,13 @@ Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich d
  
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;20&quot; max=&quot;100&quot;&gt;20%&lt;/progress&gt;
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Siehst du das Bild ganz oben beim Marienaltar? Es ist zwar etwas dunkel und weit weg, aber darauf kannst du die 14 Nothelfer sehen.&lt;/p&gt;
-&lt;p&gt;Die 14 Nothelfer sind Heilige aus dem 2. bis 4. Jahrhundert und sind fast alle Märtyrer. Das heißt, dass sie für ihren Glauben gelitten haben und sogar dafür gestorben sind. Die Heiligen, die dazugehören, sind: Achatius, Ägidius, Barbara, Blasius, Cyriacus, Dionysius, Erasmus, Eustachius, Georg, Katharina, Margareta, Pantaleon und Vitus.&lt;/p&gt;
-&lt;p&gt;Stopp! Habe ich mich verzählt? Das sind doch nur 13 Namen! Den 14. Nothelfer kennst du bestimmt. Ein bestimmtes gelbes Transportmittel des ÖAMTC heißt auch so. Du kannst es auch manchmal am Himmel sehen.&lt;/p&gt;
-&lt;/div&gt;
+
+Siehst du das Bild ganz oben beim Marienaltar? Es ist zwar etwas dunkel und weit weg, aber darauf kannst du die 14 Nothelfer sehen.
+
+Die 14 Nothelfer sind Heilige aus dem 2. bis 4. Jahrhundert und sind fast alle Märtyrer. Das heißt, dass sie für ihren Glauben gelitten haben und sogar dafür gestorben sind. Die Heiligen, die dazugehören, sind: Achatius, Ägidius, Barbara, Blasius, Cyriacus, Dionysius, Erasmus, Eustachius, Georg, Katharina, Margareta, Pantaleon und Vitus
+
+Stopp! Habe ich mich verzählt? Das sind doch nur 13 Namen! Den 14. Nothelfer kennst du bestimmt. Ein bestimmtes gelbes Transportmittel des ÖAMTC heißt auch so. Du kannst es auch manchmal am Himmel sehen.
+
 {text input for: &#39;name_saint&#39;, required: true}
 [[Weiter -&gt; Test_Name_Saint]]
 [continue]</tw-passagedata><tw-passagedata pid="11" name=" Test_Name_Saint" tags="" position="475,675" size="100,100">[CSS]
@@ -477,7 +492,7 @@ img {
 [if name_saint === &#39;Christophorus&#39; | name_saint === &#39;christophorus&#39;]
 
 &lt;img src=&#39;./img/vierzehn_Nothelfer.jpg&#39; alt=&#39;Bild der vierzehn Nothelfer&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
+
 Das ist richtig! Der Hl. Christophorus ist übrigens nicht nur einer der 14 Nothelfer, sondern auch der Schutzpatron der Reisenden. Der Legende nach war Christophorus ein Riese, der das Christuskind über einen Fluss getragen hat.
 
 [[Weiter -&gt;  Geschichte2]] 
@@ -504,7 +519,7 @@ Der Name stimmt noch nicht ganz...Hier kommst du zu einem Tipp!
  
 [if song_code === &#39;328/2 811/1 926 351/3&#39; | song_code === &#39;328/2811/1926351/3&#39; | song_code === &#39;328281119263513&#39;]
 
-Nein, nein, so leicht geht das nicht! Das ist noch nicht die richtige Zahlenkombination. Aber kommen dir die Zahlen bekannt vor?
+Nein, nein, so leicht geht das nicht! Das ist noch nicht die richtige Zahlenkombination. Aber kommt dir die Schreibweise der Zahlen bekannt vor?
 
 [[Weiter -&gt; Gotteslob.2]] 
 
@@ -528,7 +543,7 @@ Hervorragend! Du kennst dich ja schon richtig gut aus im Gotteslob! Und welches 
 [[Weiter -&gt; Orgel.Musik]] 
 
 [else]
-Oje! Ich glaube, du brauchst noch einen Tipp.
+Oje, das ist nicht richtig! Ich glaube, du brauchst noch einen Tipp.
 
 [[Tipp -&gt; True_Song_Code_Hinweis1]]
 
@@ -550,7 +565,9 @@ Oje! Ich glaube, du brauchst noch einen Tipp.
 [if sacraments === &#39;7&#39; | sacraments === &#39;sieben&#39; | sacraments === &#39;Sieben&#39;]
 
 Wunderbar, du hast die sieben Sakramente gefunden!
+
 In der katholischen Kirche gibt es sieben Sakramente: Taufe, Eucharistie, Firmung, Ehe, Buße, Weihe und Krankensalbung. Sicherlich hast du auch schon mindestens eines davon empfangen.
+
 Die Sakramente sind Symbole für die Liebe Gottes, die immer mit uns ist. Die meisten Sakramente empfängt man am Beginn von neuen Lebensabschnitten und in schweren Zeiten. Das zeigt, dass Gott uns auf unserem Lebensweg ständig begleitet.
 
 [[Weiter -&gt; Glocken]] 
@@ -582,7 +599,7 @@ Richtig! Die Glocken mit den Namen Maria und Martin sind seit 1949 hier, Josef f
 
 [else]
 
-Das ist leider falsch. Am besten bekommst du einen kleinen Tipp.
+Das ist leider falsch. Am besten holst du dir einen kleinen Tipp.
 
 [[Tipp -&gt; Bells_Hinweis1]]
 
@@ -600,11 +617,24 @@ Das ist leider falsch. Am besten bekommst du einen kleinen Tipp.
 [continued]
  
 [if animal1 === &#39;Pferd&#39; &amp; animal2 === &#39;Taube&#39; &amp; animal3 === &#39;Fisch&#39; &amp; animal4 === &#39;Lamm&#39;]
-Text
+
+Gut gemacht, du hast alle Tiere gefunden!
+
+Der heilige Martin war einen Teil seines Lebens Soldat, deswegen hatte er auch ein Pferd. Am Hochaltarbild kannst du sehen, wie Martin seinen Mantel teilt und einen Teil einem Bettler schenkt.
+
+Die Taube ist im Christentum das Symbol für den Heiligen Geist, aber sie steht auch für Frieden und Freiheit.
+
+Der Fisch ist ein altchristliches Symbol für Christus. Auch die ersten Jünger Jesu waren Fischer. Er verweist aber auch auf das Wasser, das lebensnotwendig und bei der Taufe wichtig ist.
+
+Ein anderes Symbol für Christus ist das Lamm. Das &quot;Lamm Gottes&quot; oder &quot;Agnus Dei&quot; auf Latein ist auch ein Bestandteil der Messe. Wenn du das nächste Mal eine Messe besuchst, kannst du ja aufpassen, ob du die Worte hörst.
 
 [[Weiter -&gt; Heiligenstatuen]]
+
 [else]
 
+Das ist noch nicht ganz richtig, aber hier kommst du zu einem Tipp!
+
+[[Tipp -&gt; Animals_Hinweis1]]
 
 
 [continued]
@@ -623,9 +653,10 @@ Text
 [continued]
 
 &lt;h1&gt;Impressum&lt;/h1&gt;
-&lt;p&gt;Dieses Spiel wurde im Zuge der Langen Nacht der Kirchen 2025 in der Pfarre Markersdorf St. Martin erstellt.&lt;/p&gt;
+Dieses Spiel wurde im Zuge der Langen Nacht der Kirchen 2025 in der Pfarre Markersdorf St. Martin erstellt.
+
 &lt;h2&gt;Inhaltliche und technische Umsetzung&lt;/h2&gt;
-&lt;p&gt;Johanna Ofenauer, MA&lt;br/&gt;johanna.ofenauer@aon.at&lt;/p&gt;</tw-passagedata><tw-passagedata pid="18" name=" Code_Hinweis1" tags="" position="600,550" size="100,100">[CSS]
+Johanna Ofenauer, MA&lt;br/&gt;johanna.ofenauer@aon.at</tw-passagedata><tw-passagedata pid="18" name=" Code_Hinweis1" tags="" position="600,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -653,6 +684,8 @@ Jede Kreuzwegstation hat eine Nummer. Hier in der Kirche sind es sogar römische
 - 12 = XII
 - 13 = XIII
 - 14 = XIV
+
+Versuche nochmal, den richtigen Zahlencode einzugeben:
 
 {text input for: &#39;code&#39;, required: true}
 [[Weiter -&gt;Test_Code]]
@@ -701,15 +734,17 @@ In der Nacht nach dem Fund hört ein Arbeiter in der leeren Kirche ein seltsames
 
  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;30&quot; max=&quot;100&quot;&gt;30%&lt;/progress&gt; 
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;In der Offenbarung des Johannes wird Jesus als &quot;das Alpha und das Omega, der Erste und der Letzte, der Anfang und das Ende&quot; (Offb 22,13) bezeichnet. Alpha und Omega sind auch der erste und der letzte Buchstabe des griechischen Alphabets.&lt;/p&gt;
-&lt;p&gt;Die anderen griechischen Buchstaben sehen so aus: B Γ Δ E Z H Θ I K Λ M N Ξ O Π P Σ T Y Φ X Ψ. Aber welche Form haben Alpha und Omega?&lt;/p&gt;
-&lt;p&gt;Ich glaube, du hast sie noch nie gesehen, aber jedes Mal, wenn du in die Kirche hineingehst, gehst du an ihnen vorbei. Wie sehen sie also aus?&lt;/p&gt;
-&lt;/div&gt;
+
+In der Offenbarung des Johannes wird Jesus als &quot;das Alpha und das Omega, der Erste und der Letzte, der Anfang und das Ende&quot; (Offb 22,13) bezeichnet. Alpha und Omega sind auch der erste und der letzte Buchstabe des griechischen Alphabets.
+
+Die anderen griechischen Buchstaben sehen so aus: B Γ Δ E Z H Θ I K Λ M N Ξ O Π P Σ T Y Φ X Ψ. Aber welche Form haben Alpha und Omega?
+
+Ich glaube, du hast sie noch nie gesehen, aber jedes Mal, wenn du in die Kirche hineingehst, gehst du an ihnen vorbei. Wie sehen sie also aus?
 
 Alpha: {dropdown menu for: &#39;alpha&#39;, choices: [&#39;&#39;,&#39;Θ&#39;, &#39;Λ&#39;, &#39;Α&#39;]}
-&lt;br/&gt;
+
 Omega: {dropdown menu for: &#39;omega&#39;, choices: [&#39;&#39;,&#39;O&#39;, &#39;Ω&#39;, &#39;Ψ&#39;]}
+
 [[Weiter -&gt; Test_Kirchentür]]</tw-passagedata><tw-passagedata pid="22" name=" True_Song_Code_Hinweis1" tags="" position="825,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
@@ -723,6 +758,9 @@ Omega: {dropdown menu for: &#39;omega&#39;, choices: [&#39;&#39;,&#39;O&#39;, &#
 [continued]
 
 Diese Nummern sind nicht die Seiten im Gotteslob, sondern die Nummern der Lieder. Die Zahl rechts neben dem Schrägstrich meint die Strophe, in der du nachschauen sollst.
+
+Jetzt kannst du den Code sicher knacken: 328/2 811/1 926 351/3
+
 {text input for: &#39;true_song_code&#39;, required: true}
 [[Weiter -&gt; Test_True_Song_Code]]
 [continue]</tw-passagedata><tw-passagedata pid="23" name=" Geschichte3" tags="" position="400,1375" size="100,100">[CSS]
@@ -737,7 +775,9 @@ Diese Nummern sind nicht die Seiten im Gotteslob, sondern die Nummern der Lieder
  
 [continued]
 
-Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, Linien, Zeichen, die keiner erklären kann. Ein alter Pfarrer erinnert sich: „Schon die Römer haben hier ihre Spuren hinterlassen. Man sagt, unter unseren Füßen ruht etwas sehr Altes... und es schläft nur.“ Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher erkennt man die Steine – kunstvoll bearbeitet, seltsam kalt beim Anfassen.
+Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, Linien, Zeichen, die keiner erklären kann. Ein alter Pfarrer erinnert sich: „Schon die Römer haben hier ihre Spuren hinterlassen. Man sagt, unter unseren Füßen ruht etwas sehr Altes... und es schläft nur.“
+
+Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher erkennt man die Steine – kunstvoll bearbeitet, seltsam kalt beim Anfassen.
 
 [[Weiter -&gt;  Weihwasserkessel]]</tw-passagedata><tw-passagedata pid="24" name="  Weihwasserkessel" tags="" position="300,1500" size="100,100">[CSS]
 #page {
@@ -758,12 +798,13 @@ img {
  
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;60&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt;
-&lt;div class=&quot;puzzle&quot;&gt;
+
 &lt;img src=&#39;./img/eucharistie.jpg&#39; alt=&#39;Symbol für das Sakrament der Eucharistie&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
-&lt;p&gt;Dieses Symbol findest du irgendwo in der Kirche. Es ist nicht sehr groß, also musst du sehr genau schauen. Du suchst danach am besten vor dem Marienaltar!&lt;/p&gt;
-&lt;p&gt;Wie viele Symbole kannst du dort insgesamt finden?&lt;/p&gt;
-&lt;/div&gt;
+
+Dieses Symbol findest du irgendwo in der Kirche. Es ist nicht sehr groß, also musst du sehr genau schauen. Du suchst danach am besten vor dem Marienaltar!
+
+Wie viele Symbole kannst du dort insgesamt finden?
+
 {text input for: &#39;sacraments&#39;, required: true}
 [[Weiter -&gt; Test_Sacraments]]
 [continue]</tw-passagedata><tw-passagedata pid="25" name=" Sacraments_Hinweis1" tags="" position="550,1500" size="100,100">[CSS]
@@ -778,7 +819,8 @@ img {
  
 [continued]
 
-Das Objekt, auf dem sich die Symbole befinden, ist sehr schwer und hat einen Deckel.
+Das Objekt, auf dem sich die Symbole befinden, ist sehr schwer und hat einen Deckel. Es steht in der Nähe des Marienaltars.
+
 {text input for: &#39;sacraments&#39;, required: true}
 [[Weiter -&gt; Test_Sacraments]]
 [continue]</tw-passagedata><tw-passagedata pid="26" name=" Bells_Hinweis1" tags="" position="550,1625" size="100,100">[CSS]
@@ -793,7 +835,8 @@ Das Objekt, auf dem sich die Symbole befinden, ist sehr schwer und hat einen Dec
  
 [continued]
 
-Bei dem Gesuchten handelt es sich um Musikinstrumente, die man zum Beispiel kurz vor der Messe hört.
+Bei dem Gesuchten handelt es sich um Musikinstrumente, die man zum Beispiel kurz vor der Messe hört. Sie befinden sich im Turm.
+
 {text input for: &#39;bells&#39;}
 [[Weiter -&gt; Test_Bells]]
 [continue]</tw-passagedata><tw-passagedata pid="27" name=" Ab 14 Jahren" tags="" position="1200,400" size="100,100">[CSS]
@@ -807,13 +850,13 @@ Bei dem Gesuchten handelt es sich um Musikinstrumente, die man zum Beispiel kurz
  }
 
 [continued]
-&lt;div class=&quot;intro&quot;&gt;
-&lt;p&gt;Stell dir vor, um dich herum sind alle Wände kahl. Keine Bilder und keine Statuen hängen daran. Die Bänke sind verschwunden und die Kirche ist einfach ein großer, leerer Raum. Es ist nicht so ruhig wie jetzt vielleicht. Man hört lautes Hämmern und Sägen, Menschen rufen sich einander zu.&lt;/p&gt;
-&lt;p&gt;Wir befinden uns im Jahr 1979. Die Kirche wird innen vollständig renoviert. Plötzlich entdecken Arbeiter einen unglaublichen Fund. Vor langer Zeit ist hier an diesem Ort schon einmal eine romanische Kirche gestanden. Aber Halt - ein Teil dieser Grundmauern scheint noch wesentlich älter zu sein...&lt;/p&gt;
-&lt;p&gt;Kannst du herausfinden, was dieser Fund ist?&lt;/p&gt;
-&lt;/div&gt;
+Stell dir vor, um dich herum sind alle Wände kahl. Keine Bilder und keine Statuen hängen daran. Die Bänke sind verschwunden und die Kirche ist einfach ein großer, leerer Raum. Es ist nicht so ruhig wie jetzt vielleicht. Man hört lautes Hämmern und Sägen, Menschen rufen sich einander zu.
 
-[[Weiter -&gt;Orgel.Musik.schwer ]]</tw-passagedata><tw-passagedata pid="28" name=" Test_Kirchentür" tags="" position="450,975" size="100,100">[CSS]
+Wir befinden uns im Jahr 1979. Die Kirche wird innen vollständig renoviert. Die Bauarbeiter hacken und stemmen. Staub wirbelt auf. Plötzlich klingt ein Schlag anders – dumpfer, tiefer. „Hier stimmt was nicht!“, ruft einer. Beim Freilegen entdecken sie eine alte Mauer unter dem Boden. Die Mauer sieht... anders aus. Dunkler. Fester. Fast so, als würde sie etwas bewachen. Vor langer Zeit ist hier an diesem Ort schon einmal eine romanische Kirche gestanden. Einer der Arbeiter murmelt: „Vielleicht hätte man diesen Teil besser nie angerührt...“  
+
+Finde heraus, was hier gefunden wurde!
+
+[[Los -&gt;Orgel.Musik.schwer ]]</tw-passagedata><tw-passagedata pid="28" name=" Test_Kirchentür" tags="" position="450,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -833,7 +876,8 @@ Gut gemacht! Es gibt noch mehr Rätsel zu lösen...
 
 [else]
 
-Naja, ganz richtig war das noch nicht. Schau genauer hin!
+Naja, ganz richtig war das noch nicht. Schau dir äußere Kirchentür genauer an!
+
 {back link, label: &#39;Zurück&#39;}
 [continued]
 
@@ -851,10 +895,11 @@ Naja, ganz richtig war das noch nicht. Schau genauer hin!
  
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;40%&lt;/progress&gt;
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;328/2 811/1 926 351/3&lt;/p&gt;
-&lt;p&gt;Diese Zahlen sehen aus wie ein Code...Probier doch einmal aus, ob das schon die richtigen Zahlen sind!&lt;/p&gt;
-&lt;/div&gt;
+
+328/2 811/1 926 351/3
+
+Diese Zahlen sehen aus wie ein Code...Probier doch einmal aus, ob das schon die richtigen Zahlen sind!
+
 {text input for: &#39;song_code&#39;, required: true}
 [[Weiter -&gt; Test_Song_Code]]
 [continue]</tw-passagedata><tw-passagedata pid="30" name="Hinweis_Spiel_leicht" tags="" position="700,350" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
@@ -871,7 +916,9 @@ Naja, ganz richtig war das noch nicht. Schau genauer hin!
  
 [continued]
 
-Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nicht alleine in der Kirche und spielst dieses Spiel. Damit jeder eine Freude am Rätseln haben kann, versuche bitte, die Antworten nicht gleich laut rauszurufen. So hat jeder die Chance, selbst das Rätsel zu lösen. Danke und viel Spaß!
+Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nicht alleine in der Kirche und spielst dieses Spiel. Damit jeder eine Freude am Rätseln haben kann, versuche bitte, die Antworten nicht gleich laut rauszurufen. So hat jeder die Chance, selbst das Rätsel zu lösen.
+
+Danke und viel Spaß!
 
 [[Weiter -&gt; Ab 6 Jahren]]</tw-passagedata><tw-passagedata pid="31" name=" Ab 6 Jahren" tags="" position="550,400" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
 --
@@ -887,13 +934,13 @@ Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nic
  
 [continued]
  
-&lt;div class=&quot;intro&quot;&gt;
-&lt;p&gt;Stell dir vor, um dich herum sind alle Wände kahl. Keine Bilder und keine Statuen hängen daran. Die Bänke sind verschwunden und die Kirche ist einfach ein großer, leerer Raum. Es ist nicht so ruhig wie jetzt vielleicht. Man hört lautes Hämmern und Sägen, Menschen rufen sich einander zu.&lt;/p&gt;
-&lt;p&gt;Wir befinden uns im Jahr 1979. Die Kirche wird innen vollständig renoviert. Die Bauarbeiter hacken und stemmen. Staub wirbelt auf. Plötzlich klingt ein Schlag anders – dumpfer, tiefer. „Hier stimmt was nicht!“, ruft einer. Beim Freilegen entdecken sie eine alte Mauer unter dem Boden. Die Mauer sieht... anders aus. Dunkler. Fester. Fast so, als würde sie etwas bewachen. Vor langer Zeit ist hier an diesem Ort schon einmal eine romanische Kirche gestanden. Einer der Arbeiter murmelt:
-„Vielleicht hätte man diesen Teil besser nie angerührt...“  
-&lt;p&gt;Kannst du herausfinden, was hier gefunden wurde?&lt;/p&gt;
-&lt;/div&gt;
-[[Weiter -&gt; Kreuzweg]]</tw-passagedata><tw-passagedata pid="32" name=" Hinweis_Spiel_schwer" tags="" position="1050,350" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
+Stell dir vor, um dich herum sind alle Wände kahl. Keine Bilder und keine Statuen hängen daran. Die Bänke sind verschwunden und die Kirche ist einfach ein großer, leerer Raum. Es ist nicht so ruhig wie jetzt vielleicht. Man hört lautes Hämmern und Sägen, Menschen rufen sich einander zu.
+
+Wir befinden uns im Jahr 1979. Die Kirche wird innen vollständig renoviert. Die Bauarbeiter hacken und stemmen. Staub wirbelt auf. Plötzlich klingt ein Schlag anders – dumpfer, tiefer. „Hier stimmt was nicht!“, ruft einer. Beim Freilegen entdecken sie eine alte Mauer unter dem Boden. Die Mauer sieht... anders aus. Dunkler. Fester. Fast so, als würde sie etwas bewachen. Vor langer Zeit ist hier an diesem Ort schon einmal eine romanische Kirche gestanden. Einer der Arbeiter murmelt: „Vielleicht hätte man diesen Teil besser nie angerührt...“  
+
+Finde heraus, was hier gefunden wurde!
+
+[[Los -&gt; Kreuzweg]]</tw-passagedata><tw-passagedata pid="32" name=" Hinweis_Spiel_schwer" tags="" position="1050,350" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
 --
 [CSS]
 #page {
@@ -907,7 +954,9 @@ Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nic
  
 [continued]
 
-Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nicht alleine in der Kirche und spielst dieses Spiel. Damit jeder eine Freude am Rätseln haben kann, versuche bitte, die Antworten nicht gleich laut rauszurufen. So hat jeder die Chance, selbst das Rätsel zu lösen. Danke und viel Spaß!
+Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nicht alleine in der Kirche und spielst dieses Spiel. Damit jeder eine Freude am Rätseln haben kann, versuche bitte, die Antworten nicht gleich laut rauszurufen. So hat jeder die Chance, selbst das Rätsel zu lösen.
+
+Danke und viel Spaß!
 
 [[Weiter -&gt; Ab 14 Jahren]]</tw-passagedata><tw-passagedata pid="33" name="Orgel.Musik.schwer " tags="" position="1300,550" size="100,100">[CSS]
 #page {
@@ -921,14 +970,21 @@ Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nic
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Bevor du dir die Audiodatei anhörst, geh bitte hinaus! So störst du in der Kirche niemanden und du kannst die Lautstärke höher einstellen.&lt;/p&gt;
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;10&quot; max=&quot;100&quot;&gt;10%&lt;/progress&gt;
+
+Bevor du dir die Audiodatei anhörst, geh bitte hinaus! So störst du in der Kirche niemanden und du kannst die Lautstärke erhöhen, damit du das Lied gut hörst.
+
+Hör ganz genau hin!
+
 &lt;audio controls&gt;
 &lt;source src=&quot;&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-[[Weiter -&gt; Weihwasserkessel.schwer]]</tw-passagedata><tw-passagedata pid="34" name=" Weihwasserkessel.schwer" tags="" position="1300,675" size="100,100">[CSS]
+
+Die erste Vogelart hat fast dieselben Buchstaben wie ein sehr wichtiges Wort im Christentum.
+
+{text input for: &#39;amen&#39;}
+[[Weiter -&gt; Test_Orgel.Musik.schwer]]</tw-passagedata><tw-passagedata pid="34" name=" Weihwasserkessel.schwer" tags="" position="1300,675" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -944,14 +1000,18 @@ img {
  }
  
 [continued]
+
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;20&quot; max=&quot;100&quot;&gt;20%&lt;/progress&gt;
  
 &lt;img src=&#39;./img/busse.jpg&#39; alt=&#39;Symbol für das Sakrament der Buße&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
-&lt;p&gt;Gesucht ist eine Zahl!&lt;/p&gt;
-&lt;p&gt;[[Tipp -&gt; Weihwasserkessel.schwer.Tipp1]]
-&lt;/div&gt;
+
+Gesucht ist eine Zahl!
+
+[[Tipp -&gt; Weihwasserkessel.schwer.Tipp1]]
+
 {text input for: &#39;sacraments&#39;, required: false}
-[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="35" name=" Weihwasserkessel.schwer.Tipp1" tags="" position="1425,675" size="100,100">[CSS]
+[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="35" name=" Weihwasserkessel.schwer.Tipp1" tags="" position="1425,725" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -968,9 +1028,10 @@ img {
  
 [continued]
 
-Dieses Symbol ist nicht das Einzige.
+Dieses Symbol ist nicht das Einzige. Auf einem Objekt in der Kirche sind noch weitere, ähnliche zu zählen.
 
-{back link, label: &#39;Zurück&#39;}</tw-passagedata><tw-passagedata pid="36" name=" Test_Sacraments.schwer" tags="" position="1550,675" size="100,100">[CSS]
+{text input for: &#39;sacraments&#39;, required: false}
+[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="36" name=" Test_Sacraments.schwer" tags="" position="1550,675" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -985,32 +1046,19 @@ Dieses Symbol ist nicht das Einzige.
 [if sacraments === &#39;7&#39; | sacraments === &#39;sieben&#39; | sacraments === &#39;Sieben&#39;]
 
 Wunderbar, du hast die sieben Sakramente gefunden!
+
 In der katholischen Kirche gibt es sieben Sakramente: Taufe, Eucharistie, Firmung, Ehe, Buße, Weihe und Krankensalbung. Sicherlich hast du auch schon mindestens eines davon empfangen.
+
 Die Sakramente sind Symbole für die Liebe Gottes, die immer mit uns ist. Die meisten Sakramente empfängt man am Beginn von neuen Lebensabschnitten und in schweren Zeiten. Das zeigt, dass Gott uns auf unserem Lebensweg ständig begleitet
 
 [[Weiter -&gt; Geschichte2.schwer]]
+
 [else]
 
 Brauchst du einen Tipp? 
 
-[[Weiter -&gt; Weihwasserkessel.schwer.Tipp2]]
-[continue]</tw-passagedata><tw-passagedata pid="37" name=" Weihwasserkessel.schwer.Tipp2" tags="" position="1675,675" size="100,100">[CSS]
-#page {
-  background-color: #a41c5c;
-}
-
-#backdrop {
-  background-color: white;
-  color: white;
- }
- 
-[continued]
-
-Das Symbol befindet sich auf einem tragbaren Gefäß.
-
-{text input for: &#39;sacraments&#39;, required: true}
-
-[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="38" name=" Glocken.schwer" tags="" position="1300,975" size="100,100">[CSS]
+[[Weiter -&gt; Weihwasserkessel.schwer.Tipp1]]
+[continue]</tw-passagedata><tw-passagedata pid="37" name=" Glocken.schwer" tags="" position="1300,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1022,11 +1070,13 @@ Das Symbol befindet sich auf einem tragbaren Gefäß.
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Vier Stimmen wachen nah beim Herrn,,&lt;br/&gt;rufen laut, doch nie von fern.&lt;br/&gt;Josef holt die Leute rein,&lt;br/&gt;Maria singt mit Engelein.&lt;br/&gt;Martin tut auch allen kund,&lt;br/&gt;Karl erklingt zur letzten Stund.&lt;br/&gt;Kennst du uns, so sage mir:&lt;br/&gt;Was sind wir?&lt;/p&gt;
-&lt;/div&gt;
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;30&quot; max=&quot;100&quot;&gt;30%&lt;/progress&gt; 
+ 
+Vier Stimmen wachen nah beim Herrn,,&lt;br/&gt;rufen laut, doch nie von fern.&lt;br/&gt;Josef holt die Leute rein,&lt;br/&gt;Maria singt mit Engelein.&lt;br/&gt;Martin tut auch allen kund,&lt;br/&gt;Karl erklingt zur letzten Stund.&lt;br/&gt;Kennst du uns, so sage mir:&lt;br/&gt;Was sind wir?
+
 {text input for: &#39;bells&#39;}
-[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="39" name=" Test_Bells.schwer" tags="" position="1425,975" size="100,100">[CSS]
+[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="38" name=" Test_Bells.schwer" tags="" position="1425,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1049,7 +1099,7 @@ Richtig! Die Glocken mit den Namen Maria und Martin sind seit 1949 hier, Josef f
 Das ist leider falsch. Am besten bekommst du einen kleinen Tipp.
 
 [[Weiter -&gt; Bells.schwer_Tipp1]]
-[continue]</tw-passagedata><tw-passagedata pid="40" name=" Bells.schwer_Tipp1" tags="" position="1550,975" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="39" name=" Bells.schwer_Tipp1" tags="" position="1550,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1061,9 +1111,10 @@ Das ist leider falsch. Am besten bekommst du einen kleinen Tipp.
  
 [continued]
 
-Bei dem Gesuchten handelt es sich um Musikinstrumente, die man zum Beispiel kurz vor der Messe hört.
+Bei dem Gesuchten handelt es sich um Musikinstrumente, die man unter anderem vor oder während der Messe hören kann.
+
 {text input for: &#39;bells&#39;}
-[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="41" name=" Tiere.schwer" tags="" position="1300,1100" size="100,100">[CSS]
+[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="40" name=" Tiere.schwer" tags="" position="1300,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1075,20 +1126,25 @@ Bei dem Gesuchten handelt es sich um Musikinstrumente, die man zum Beispiel kurz
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Tiere spielen im Christentum eine große Rolle als Symbole. Zum Beispiel werden  die Evangelisten Markus, Lukas und Johannes oft als Löwe, Stier und Adler dargestellt.&lt;/p&gt;
-&lt;p&gt;Sieh dich in unserer Kirche um. Auch hier kannst du vier unterschiedliche Tiere sehen. Welche Tiere sind das?&lt;/p&gt;
-&lt;/div&gt;
+   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;40%&lt;/progress&gt;
+
+Tiere spielen im Christentum eine große Rolle als Symbole. Zum Beispiel werden  die Evangelisten Markus, Lukas und Johannes oft als Löwe, Stier und Adler dargestellt.
+
+Sieh dich in unserer Kirche um. Auch hier kannst du ein paar Tiere sehen. Welche sind es?
+
 Wenn du hier auf jedes Tier tippst, ändert es sich. Tippe so oft darauf, sodass am Ende die richtigen vier Tiere aufscheinen.
+
 [continue]
 {cycling link for: &#39;animal1&#39;, choices: [&#39;Hund&#39;, &#39;Katze&#39;, &#39;Tiger&#39;, &#39;Pferd&#39;]}
-&lt;br/&gt;
+
 {cycling link for: &#39;animal2&#39;, choices: [&#39;Stier&#39;, &#39;Taube&#39;, &#39;Maus&#39;, &#39;Eidechse&#39;]}
-&lt;br/&gt;
+
 {cycling link for: &#39;anima3&#39;, choices: [&#39;Löwe&#39;, &#39;Känguru&#39;, &#39;Käfer&#39;, &#39;Fisch&#39;]}
-&lt;br/&gt;
+
 {cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
-[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata><tw-passagedata pid="42" name=" Test_Animals.schwer" tags="" position="1425,1100" size="100,100">[CSS]
+
+[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata><tw-passagedata pid="41" name=" Test_Animals.schwer" tags="" position="1425,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1101,15 +1157,27 @@ Wenn du hier auf jedes Tier tippst, ändert es sich. Tippe so oft darauf, sodass
 [continued]
  
 [if animal1 === &#39;Pferd&#39; &amp; animal2 === &#39;Taube&#39; &amp; animal3 === &#39;Fisch&#39; &amp; animal4 === &#39;Lamm&#39;]
-Text
+
+Gut gemacht, du hast alle Tiere gefunden!
+
+Der heilige Martin war einen Teil seines Lebens Soldat, deswegen hatte er auch ein Pferd. Am Hochaltarbild kannst du sehen, wie Martin seinen Mantel teilt und einen Teil einem Bettler schenkt.
+
+Die Taube ist im Christentum das Symbol für den Heiligen Geist, aber sie steht auch für Frieden und Freiheit.
+
+Der Fisch ist ein altchristliches Symbol für Christus. Auch die ersten Jünger Jesu waren Fischer. Er verweist aber auch auf das Wasser, das lebensnotwendig und bei der Taufe wichtig ist.
+
+Ein anderes Symbol für Christus ist das Lamm. Das &quot;Lamm Gottes&quot; oder &quot;Agnus Dei&quot; auf Latein ist auch ein Bestandteil der Messe. Wenn du das nächste Mal eine Messe besuchst, kannst du ja aufpassen, ob du die Worte hörst.
 
 [[Weiter -&gt; Heiligenstatuen.schwer]]
 [else]
 
+Das ist noch nicht ganz richtig, aber hier kommst du zu einem Tipp!
+
+[[Tipp -&gt; Animals.schwer_Tipp1]]
 
 
 [continued]
-</tw-passagedata><tw-passagedata pid="43" name=" Heiligenstatuen.schwer" tags="" position="1300,1225" size="100,100">[CSS]
+</tw-passagedata><tw-passagedata pid="42" name=" Heiligenstatuen.schwer" tags="" position="1300,1225" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1121,9 +1189,10 @@ Text
  
 [continued]
 
+&lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+&lt;progress id=&quot;game&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;50%&lt;/progress&gt;
 
-
-[[Weiter -&gt; Geschichte3.schwer]]</tw-passagedata><tw-passagedata pid="44" name=" Kreuzweg.schwer" tags="" position="1300,1500" size="100,100">[CSS]
+[[Weiter -&gt; Geschichte3.schwer]]</tw-passagedata><tw-passagedata pid="43" name=" Kreuzweg.schwer" tags="" position="1300,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1140,17 +1209,18 @@ img {
  
 [continued]
  
- &lt;div class=&quot;puzzle&quot;&gt;
-  &lt;p&gt;Du brauchst einen Zahlencode!&lt;/p&gt;
-&lt;/div&gt;
-&lt;img src=&#39;./img/Simon_hilft_5.jpg&#39; alt=&#39;5. Station Simon von Zyrene hilft Jesus das Kreuz zu tragen&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;img src=&#39;./img/weinende_Frauen_8.jpg&#39; alt=&#39;8. Station Jesus begegnet den weinenden Frauen&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
-&lt;img src=&#39;./img/im_Schosse_Marias_13.jpg&#39; alt=&#39;13. Station Jesus wird vom Kreuz genommen und in den Schoß seiner Mutter gelegt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;img src=&#39;./img/faellt_erstes_Mal_3.jpg&#39; alt=&#39;3. Station Jesus fällt zum ersten Mal unter dem Kreuz&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;60&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt;
+
+Du brauchst einen Zahlencode!
+
+&lt;img src=&#39;./img/Simon_hilft_5.jpg&#39; alt=&#39;Simon von Zyrene hilft Jesus das Kreuz zu tragen&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/weinende_Frauen_8.jpg&#39; alt=&#39;Jesus begegnet den weinenden Frauen&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/im_Schosse_Marias_13.jpg&#39; alt=&#39;Jesus wird vom Kreuz genommen und in den Schoß seiner Mutter gelegt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+&lt;img src=&#39;./img/faellt_erstes_Mal_3.jpg&#39; alt=&#39;Jesus fällt zum ersten Mal unter dem Kreuz&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+
 {text input for: &#39;code&#39;, required: true}
-[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="45" name=" Test_Code.schwer" tags="" position="1425,1500" size="100,100">[CSS]
+[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="44" name=" Test_Code.schwer" tags="" position="1450,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1171,11 +1241,12 @@ Sehr gut! Du hast den richtigen Code gefunden! Um zu erfahren, was die Arbeiter 
 [else]
 
 Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich dir einen kleinen Tipp.
+
 [[Weiter -&gt; Code.schwer_Tipp1]]
 
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="46" name=" Code.schwer_Tipp1" tags="" position="1575,1500" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="45" name=" Code.schwer_Tipp1" tags="" position="1575,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1187,9 +1258,9 @@ Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich d
  
 [continued]
 
-Jede Kreuzwegstation hat eine Nummer.
+Finde die Nummern der Kreuzwegstationen!
 
-[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="47" name=" Nothelfer.schwer" tags="" position="1300,1625" size="100,100">[CSS]
+[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="46" name=" Nothelfer.schwer" tags="" position="1300,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1201,13 +1272,17 @@ Jede Kreuzwegstation hat eine Nummer.
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;Siehst du das Bild ganz oben beim Marienaltar? Es ist zwar etwas dunkel und weit weg, aber darauf kannst du die 14 Nothelfer sehen.&lt;/p&gt;
-&lt;p&gt;Die 14 Nothelfer sind Heilige aus dem 2. bis 4. Jahrhundert und sind fast alle Märtyrer. Das heißt, dass sie für ihren Glauben gelitten haben und sogar dafür gestorben sind. Die Heiligen, die dazugehören, sind: Achatius, Ägidius, Barbara, Blasius, Cyriacus, Dionysius, Erasmus, Eustachius, Georg, Katharina, Margareta, Pantaleon und Vitus.&lt;/p&gt;
-&lt;p&gt;Stopp! Habe ich mich verzählt? Das sind doch nur 13 Namen! Den 14. Nothelfer kennst du bestimmt. Er ist Namensgeber für ein gewisses Transportmittel in Österreich. Wer ist es?&lt;/p&gt;
-&lt;/div&gt;
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;70&quot; max=&quot;100&quot;&gt;70%&lt;/progress&gt;
+ 
+Siehst du das Bild ganz oben beim Marienaltar? Es ist zwar etwas dunkel und weit weg, aber darauf kannst du die 14 Nothelfer sehen.
+
+Die 14 Nothelfer sind Heilige aus dem 2. bis 4. Jahrhundert und sind fast alle Märtyrer. Das heißt, dass sie für ihren Glauben gelitten haben und sogar dafür gestorben sind. Die Heiligen, die dazugehören, sind: Achatius, Ägidius, Barbara, Blasius, Cyriacus, Dionysius, Erasmus, Eustachius, Georg, Katharina, Margareta, Pantaleon und Vitus
+
+Stopp! Habe ich mich verzählt? Das sind doch nur 13 Namen! Den 14. Nothelfer kennst du bestimmt. Ein bestimmtes Transportmittel in Österreich trägt denselben Namen.
+
 {text input for: &#39;name_saint&#39;, required: true}
-[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="48" name=" Test_Name_Saint.schwer" tags="" position="1425,1625" size="100,100">[CSS]
+[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="47" name=" Test_Name_Saint.schwer" tags="" position="1425,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1226,7 +1301,7 @@ img {
 [if name_saint === &#39;Christophorus&#39; | name_saint === &#39;christophorus&#39;]
 
 &lt;img src=&#39;./img/vierzehn_Nothelfer.jpg&#39; alt=&#39;Bild der vierzehn Nothelfer&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-&lt;br/&gt;
+
 Das ist richtig! Der Hl. Christophorus ist übrigens nicht nur einer der 14 Nothelfer, sondern auch der Schutzpatron der Reisenden. Der Legende nach war Christophorus ein Riese, der das Christuskind über einen Fluss getragen hat.
 
 [[Weiter -&gt; Geschichte4.schwer]]
@@ -1239,7 +1314,7 @@ Der Name stimmt noch nicht ganz...Hier kommst du zu einem Tipp!
 
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="49" name=" Name_Saint.schwer_Tipp1" tags="" position="1575,1625" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="48" name=" Name_Saint.schwer_Tipp1" tags="" position="1575,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1253,7 +1328,7 @@ Der Name stimmt noch nicht ganz...Hier kommst du zu einem Tipp!
 
 Das Transportmittel, das gemeint ist, ist ein Hubschrauber.
 
-[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="50" name=" Kirchentür.schwer" tags="" position="1300,1900" size="100,100">[CSS]
+[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="49" name=" Kirchentür.schwer" tags="" position="1300,1900" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1265,16 +1340,18 @@ Das Transportmittel, das gemeint ist, ist ein Hubschrauber.
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;In der Offenbarung des Johannes wird Jesus als &quot;das Alpha und das Omega, der Erste und der Letzte, der Anfang und das Ende&quot; (Offb 22,13) bezeichnet. Alpha und Omega sind auch der erste und der letzte Buchstabe des griechischen Alphabets.&lt;/p&gt;
-&lt;p&gt;Die anderen griechischen Buchstaben sehen so aus: B Γ Δ E Z H Θ I K Λ M N Ξ O Π P Σ T Y Φ X Ψ. Aber welche Form haben Alpha und Omega?&lt;/p&gt;
-&lt;p&gt;Ich glaube, du hast sie noch nie gesehen, aber jedes Mal, wenn du in die Kirche hineingehst, gehst du an ihnen vorbei. Wie sehen sie also aus?&lt;/p&gt;
-&lt;/div&gt;
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;80%&lt;/progress&gt;
+ 
+In der Offenbarung des Johannes wird Jesus als &quot;das Alpha und das Omega, der Erste und der Letzte, der Anfang und das Ende&quot; (Offb 22,13) bezeichnet. Alpha und Omega sind auch der erste und der letzte Buchstabe des griechischen Alphabets.
+
+Die anderen griechischen Buchstaben sehen so aus: B Γ Δ E Z H Θ I K Λ M N Ξ O Π P Σ T Y Φ X Ψ. Aber welche Form haben Alpha und Omega?
 
 Alpha: {dropdown menu for: &#39;alpha&#39;, choices: [&#39;&#39;,&#39;Θ&#39;, &#39;Λ&#39;, &#39;Α&#39;]}
-&lt;br/&gt;
+
 Omega: {dropdown menu for: &#39;omega&#39;, choices: [&#39;&#39;,&#39;O&#39;, &#39;Ω&#39;, &#39;Ψ&#39;]}
-[[Weiter -&gt; Test_Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="51" name=" Test_Kirchentür.schwer" tags="" position="1450,1900" size="100,100">[CSS]
+
+[[Weiter -&gt; Test_Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="50" name=" Test_Kirchentür.schwer" tags="" position="1450,1900" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1288,17 +1365,18 @@ Omega: {dropdown menu for: &#39;omega&#39;, choices: [&#39;&#39;,&#39;O&#39;, &#
  
 [if alpha === &#39;Α&#39; &amp; omega === &#39;Ω&#39;]
 
-Gut gemacht! Es gibt noch mehr Rätsel zu lösen...
+Gut gemacht!
 
 [[Weiter -&gt; Gotteslob.schwer]]
 
 [else]
 
-Naja, ganz richtig war das noch nicht. Schau genauer hin!
+Naja, ganz richtig war das noch nicht. Sieh dir mal die Kirchentür an!
+
 {back link, label: &#39;Zurück&#39;}
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="52" name=" Heiligenstatuen" tags="" position="300,2075" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="51" name=" Heiligenstatuen" tags="" position="300,2075" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1314,7 +1392,8 @@ Naja, ganz richtig war das noch nicht. Schau genauer hin!
  &lt;progress id=&quot;game&quot; value=&quot;90&quot; max=&quot;100&quot;&gt;90%&lt;/progress&gt;
  
  
- [[Weiter -&gt; Ende]]</tw-passagedata><tw-passagedata pid="53" name=" Gotteslob.schwer" tags="" position="1300,2050" size="100,100">[CSS]
+ 
+ [[Weiter -&gt; Ende]]</tw-passagedata><tw-passagedata pid="52" name=" Gotteslob.schwer" tags="" position="1300,2050" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1326,13 +1405,17 @@ Naja, ganz richtig war das noch nicht. Schau genauer hin!
  
 [continued]
  
-&lt;div class=&quot;puzzle&quot;&gt;
-&lt;p&gt;328/2 811/1 926 351/3&lt;/p&gt;
-&lt;/div&gt;
+ &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;90&quot; max=&quot;100&quot;&gt;90%&lt;/progress&gt;
+ 
+328/2 811/1 926 351/3
+
 [[Tipp -&gt; Gotteslob.schwer_Tipp1]]
+
 {text input for: &#39;song_code&#39;, required: false}
 [[Weiter -&gt; Test_Song_Code.schwer]]
-[continue]</tw-passagedata><tw-passagedata pid="54" name=" Test_Song_Code.schwer" tags="" position="1550,2050" size="100,100">[CSS]
+
+[continue]</tw-passagedata><tw-passagedata pid="53" name=" Test_Song_Code.schwer" tags="" position="1550,2050" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1353,11 +1436,11 @@ Hervorragend! Du kennst dich offensichtlich sehr gut im Gotteslob aus!
 [else]
 Oje! Ich glaube, du brauchst noch einen Tipp.
 
-[[Tipp -&gt;
+[[Tipp -&gt; Gotteslob.schwer_Tipp1]]
 
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="55" name=" Gotteslob.schwer_Tipp1" tags="" position="1425,2050" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="54" name=" Gotteslob.schwer_Tipp1" tags="" position="1425,2050" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1369,9 +1452,9 @@ Oje! Ich glaube, du brauchst noch einen Tipp.
  
 [continued]
 
-Diese Zahlen gehören zu Liedern im Gotteslob.
+Diese Zahlen gehören zu Liedern im Gotteslob. Sie sind noch nicht der Code, aber vielleicht verraten die Strophen mehr...
 
-{back link, label: &#39;Zurück&#39;}</tw-passagedata><tw-passagedata pid="56" name=" Ende.schwer" tags="" position="1425,2225" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
+{back link, label: &#39;Zurück&#39;}</tw-passagedata><tw-passagedata pid="55" name=" Ende.schwer" tags="" position="1425,2225" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
 --
 [CSS]
 #page {
@@ -1386,11 +1469,16 @@ Diese Zahlen gehören zu Liedern im Gotteslob.
 [continued]
 
   &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
- &lt;progress id=&quot;game&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress&gt;&lt;br/&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;100&quot; max=&quot;100&quot;&gt;100%&lt;/progress
+ 
 Experten werden gerufen. Wochen später ist es offiziell:
-Es sind Spolien – Überreste einer römischen Siedlung, eingearbeitet in die Fundamente einer uralten romanischen Kirche. Mehr als tausend Jahre lag ihr Geheimnis im Boden verborgen.&lt;br/&gt;Spolien sind Bauteile, die aus einer früheren Zeit stammen und später in einem neuen Bauwerk wiederverwendet wurden. Die zwei Römersteine sind Grabsteine. Sie zeigen zum einen zwei Magistratsdiener eines Beamten aus St. Pölten, das damals Aelium Caetium hieß und zum anderen einen Amtsstuhl für höhere Magistraten in der römischen Antike, genannt sella curulis.
+Es sind Spolien – Überreste einer römischen Siedlung, eingearbeitet in die Fundamente einer uralten romanischen Kirche. Mehr als tausend Jahre lag ihr Geheimnis im Boden verborgen.
+
+Spolien sind Bauteile, die aus einer früheren Zeit stammen und später in einem neuen Bauwerk wiederverwendet wurden. Die zwei Römersteine sind Grabsteine. Sie zeigen zum einen zwei Magistratsdiener eines Beamten aus St. Pölten, das damals Aelium Caetium hieß und zum anderen einen Amtsstuhl für höhere Magistraten in der römischen Antike, genannt sella curulis.
+
 Unter der Kirche, zwischen Mauern aus Mittelalter und Neuzeit, lag ein Schatz der Geschichte – und ihr habt ihn gefunden.
-Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.</tw-passagedata><tw-passagedata pid="57" name=" Geschichte2.schwer" tags="" position="1525,850" size="100,100">[CSS]
+
+Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.</tw-passagedata><tw-passagedata pid="56" name=" Geschichte2.schwer" tags="" position="1525,850" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1404,7 +1492,7 @@ Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsber
 
 In der Nacht nach dem Fund hört ein Arbeiter in der leeren Kirche ein seltsames Geräusch: Ein leises Kratzen. Er sieht Spuren im Staub – Fußabdrücke, wo niemand gegangen ist. Und mitten auf der Baustelle liegt ein alter, dreckverschmierter Zettel. Darauf nur zwei Worte, in krakeliger Schrift: „Sucht tiefer.“
 
-[[Weiter -&gt; Glocken.schwer]]</tw-passagedata><tw-passagedata pid="58" name=" Geschichte3.schwer" tags="" position="1300,1375" size="100,100">[CSS]
+[[Weiter -&gt; Glocken.schwer]]</tw-passagedata><tw-passagedata pid="57" name=" Geschichte3.schwer" tags="" position="1300,1375" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1416,9 +1504,11 @@ In der Nacht nach dem Fund hört ein Arbeiter in der leeren Kirche ein seltsames
  
 [continued]
 
-Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, Linien, Zeichen, die keiner erklären kann. Ein alter Pfarrer erinnert sich: „Schon die Römer haben hier ihre Spuren hinterlassen. Man sagt, unter unseren Füßen ruht etwas sehr Altes... und es schläft nur.“ Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher erkennt man die Steine – kunstvoll bearbeitet, seltsam kalt beim Anfassen.
+Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, Linien, Zeichen, die keiner erklären kann. Ein alter Pfarrer erinnert sich: „Schon die Römer haben hier ihre Spuren hinterlassen. Man sagt, unter unseren Füßen ruht etwas sehr Altes... und es schläft nur.“
 
-[[Weiter -&gt; Kreuzweg.schwer]]</tw-passagedata><tw-passagedata pid="59" name=" Geschichte4.schwer" tags="" position="1425,1775" size="100,100">[CSS]
+Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher erkennt man die Steine – kunstvoll bearbeitet, seltsam kalt beim Anfassen.
+
+[[Weiter -&gt; Kreuzweg.schwer]]</tw-passagedata><tw-passagedata pid="58" name=" Geschichte4.schwer" tags="" position="1425,1775" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1430,9 +1520,9 @@ Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, 
  
 [continued]
  
-Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt. 
+Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt.
 
-[[Weiter -&gt; Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="60" name=" Test_Orgel.Musik" tags="" position="475,1225" size="100,100">[CSS]
+[[Weiter -&gt; Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="59" name=" Test_Orgel.Musik" tags="" position="475,1225" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1447,7 +1537,7 @@ Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöck
 [if amen === &#39;Amen&#39; | amen === &#39;amen&#39;]
 
 Stimmt! &quot;Amsel&quot; und &quot;Amen&quot; haben sehr viele gemeinsame Buchstaben und klingen auch ähnlich!
-&lt;br/&gt;
+
 &quot;Amen&quot; kommt aus dem Hebräischen und bedeutet übersetzt &quot;So sei es&quot;. Wenn du dieses Wort am Ende eines Gebets, Segens oder Rede sagst, dann bestätigst du damit, dass du hinter dem Gesagten stehst.
 
 [[Weiter -&gt; Geschichte3]]
@@ -1461,4 +1551,77 @@ Hm...Die erste Vogelart, die in dem Lied vorkommt, ist eine Amsel. Wenn du das s
 [continued]
 
 [continue]
-</tw-passagedata></tw-storydata></html>
+</tw-passagedata><tw-passagedata pid="60" name=" Animals_Hinweis1" tags="" position="550,1925" size="100,100">[CSS]
+#page {
+  background-color: #a41c5c;
+}
+
+#backdrop {
+  background-color: white;
+  color: white;
+ }
+ 
+[continued]
+ 
+Zwei Tiere findest du beim Hochaltar, eines in der Kanzel und eines bei der Osterkerze. Die Kanzel ist das, was wie ein Balkon aussieht.
+
+{cycling link for: &#39;animal1&#39;, choices: [&#39;Hund&#39;, &#39;Katze&#39;, &#39;Tiger&#39;, &#39;Pferd&#39;]}
+
+{cycling link for: &#39;animal2&#39;, choices: [&#39;Stier&#39;, &#39;Taube&#39;, &#39;Maus&#39;, &#39;Eidechse&#39;]}
+
+{cycling link for: &#39;anima3&#39;, choices: [&#39;Löwe&#39;, &#39;Känguru&#39;, &#39;Käfer&#39;, &#39;Fisch&#39;]}
+
+{cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
+
+[[Weiter -&gt; Test_Animals]]</tw-passagedata><tw-passagedata pid="61" name=" Test_Orgel.Musik.schwer" tags="" position="1425,550" size="100,100">[CSS]
+#page {
+  background-color: #a41c5c;
+}
+
+#backdrop {
+  background-color: white;
+  color: white;
+ }
+ 
+[continued]
+ 
+[if amen === &#39;Amen&#39; | amen === &#39;amen&#39;]
+
+Stimmt! &quot;Amsel&quot; und &quot;Amen&quot; haben sehr viele gemeinsame Buchstaben und klingen auch ähnlich!
+
+&quot;Amen&quot; kommt aus dem Hebräischen und bedeutet übersetzt &quot;So sei es&quot;. Wenn du dieses Wort am Ende eines Gebets, Segens oder Rede sagst, dann bestätigst du damit, dass du hinter dem Gesagten stehst.
+
+[[Weiter -&gt; Weihwasserkessel.schwer]]
+
+[else]
+
+Hm...Die erste Vogelart, die in dem Lied vorkommt, ist eine Amsel. Die ersten zwei Buchstaben sind schon richtig...
+
+{back link, label: &#39;Zurück&#39;}
+
+[continued]
+
+[continue]
+</tw-passagedata><tw-passagedata pid="62" name=" Animals.schwer_Tipp1" tags="" position="1550,1100" size="100,100">[CSS]
+#page {
+  background-color: #a41c5c;
+}
+
+#backdrop {
+  background-color: white;
+  color: white;
+ }
+ 
+[continued]
+ 
+Die Tiere befinden sich im vorderen Teil der Kirche.
+
+{cycling link for: &#39;animal1&#39;, choices: [&#39;Hund&#39;, &#39;Katze&#39;, &#39;Tiger&#39;, &#39;Pferd&#39;]}
+
+{cycling link for: &#39;animal2&#39;, choices: [&#39;Stier&#39;, &#39;Taube&#39;, &#39;Maus&#39;, &#39;Eidechse&#39;]}
+
+{cycling link for: &#39;anima3&#39;, choices: [&#39;Löwe&#39;, &#39;Känguru&#39;, &#39;Käfer&#39;, &#39;Fisch&#39;]}
+
+{cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
+
+[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata></tw-storydata></html>
