@@ -223,8 +223,7 @@ config.style.page.theme.enableSwitching: false
 config.style.page.color: &#39;gray-1&#39;
 config.style.page.link.color: &#39;gray-1&#39;
 config.style.page.link.lineColor: &#39;gray-1&#39;
-config.footer.right: &#39;&#39;
-config.footer.left: &#39;[[Impressum]]&#39;
+config.footer.right: &#39;{back link, label:&quot;Zurück&quot;}&#39;
 --
 
 [CSS]
@@ -256,7 +255,11 @@ config.footer.left: &#39;[[Impressum]]&#39;
 [[Leicht -&gt;Hinweis_Spiel_leicht]]
 
 [[Schwer -&gt; Hinweis_Spiel_schwer]]
-</tw-passagedata><tw-passagedata pid="2" name=" Kreuzweg" tags="" position="350,550" size="100,100">[CSS]
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+[[Impressum]]</tw-passagedata><tw-passagedata pid="2" name=" Kreuzweg" tags="" position="350,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -276,7 +279,7 @@ img {
  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
  &lt;progress id=&quot;game&quot; value=&quot;10&quot; max=&quot;100&quot;&gt;10%&lt;/progress&gt;
 
-Du brauchst einen Zahlencode! Aber wie kommst du nur dazu? Hm... vielleicht haben diese Bilder etwas damit zu tun... Findest du sie in der Kirche? Ich glaube, die Reihenfolge ist auch sehr wichtig!
+Du brauchst einen Zahlencode! Aber wie kommst du nur dazu? Hm... vielleicht haben diese Bilder etwas damit zu tun... Findest du sie in der Kirche?
 
 &lt;img src=&#39;./img/begegnet_Mutter_4.jpg&#39; alt=&#39;Jesus begegnet seiner Mutter&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
 &lt;img src=&#39;./img/Kleider_beraubt_10.jpg&#39; alt=&#39;Jesus wird seiner Kleider beraubt&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
@@ -302,6 +305,8 @@ Du brauchst einen Zahlencode! Aber wie kommst du nur dazu? Hm... vielleicht habe
 [continued]
  
 Irgendwie sehen sie aus wie die Nummern von den Liedern, die wir immer in der Messe singen. Schlage doch einmal das Lied mit der ersten Nummer auf und schau dir den Text genau an. Ich glaube, du kommst dann auf eine andere Zahl!
+
+328/2 811/1 926 351/3
 
 {text input for: &#39;true_song_code&#39;, required: true}
 [[Weiter -&gt; Test_True_Song_Code]]
@@ -374,7 +379,12 @@ Spolien sind Bauteile, die aus einer früheren Zeit stammen und später in einem
 
 Unter der Kirche, zwischen Mauern aus Mittelalter und Neuzeit, lag ein Schatz der Geschichte – und ihr habt ihn gefunden.
 
-Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.</tw-passagedata><tw-passagedata pid="7" name=" Tiere" tags="" position="300,1925" size="100,100">[CSS]
+Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+[[Impressum]]</tw-passagedata><tw-passagedata pid="7" name=" Tiere" tags="" position="300,1925" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -638,7 +648,10 @@ Das ist noch nicht ganz richtig, aber hier kommst du zu einem Tipp!
 Dieses Spiel wurde im Zuge der Langen Nacht der Kirchen 2025 in der Pfarre Markersdorf St. Martin erstellt.
 
 &lt;h2&gt;Inhaltliche und technische Umsetzung&lt;/h2&gt;
-Johanna Ofenauer, MA&lt;br/&gt;johanna.ofenauer@aon.at</tw-passagedata><tw-passagedata pid="17" name=" Code_Hinweis1" tags="" position="600,550" size="100,100">[CSS]
+Johanna Ofenauer, MA&lt;br/&gt;johanna.ofenauer@aon.at
+
+&lt;h2&gt;Fotos&lt;/h2&gt;
+&amp;#169; Caroline Ofenauer</tw-passagedata><tw-passagedata pid="17" name=" Code_Hinweis1" tags="" position="600,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -668,9 +681,7 @@ Jede Kreuzwegstation hat eine Nummer. Hier in der Kirche sind es sogar römische
 - 14 = XIV
 
 Versuche nochmal, den richtigen Zahlencode einzugeben:
-
-{text input for: &#39;code&#39;, required: true}
-[[Weiter -&gt;Test_Code]]
+[[Zurück -&gt; Kreuzweg]]
 
 [continue]</tw-passagedata><tw-passagedata pid="18" name=" Name_Saint_Hinweis1" tags="" position="600,675" size="100,100">[CSS]
 #page {
@@ -686,8 +697,7 @@ Versuche nochmal, den richtigen Zahlencode einzugeben:
 
 Das Transportmittel, das gemeint ist, ist ein Hubschrauber, der Verletzte ins Krankenhaus bringt, Die Anfangsbuchstaben sind Chris...
 
-{text input for: &#39;name_saint&#39;, required: true}
-[[Weiter -&gt; Test_Name_Saint]]
+[[Zurück -&gt; Nothelfer]]
 [continue]</tw-passagedata><tw-passagedata pid="19" name="  Geschichte2" tags="" position="450,850" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
@@ -761,35 +771,7 @@ Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, 
 
 Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher erkennt man die Steine – kunstvoll bearbeitet, seltsam kalt beim Anfassen.
 
-[[Weiter -&gt;  Weihwasserkessel]]</tw-passagedata><tw-passagedata pid="23" name="  Weihwasserkessel" tags="" position="300,1500" size="100,100">[CSS]
-#page {
-  background-color: #a41c5c;
-}
-
-#backdrop {
-  background-color: white;
-  color: white;
- }
- 
-img {
-  display: block;
-  margin: auto;
- }
- 
-[continued]
- 
-  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
- &lt;progress id=&quot;game&quot; value=&quot;60&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt;
-
-&lt;img src=&#39;./img/eucharistie.jpg&#39; alt=&#39;Symbol für das Sakrament der Eucharistie&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
-
-Dieses Symbol findest du irgendwo in der Kirche. Es ist nicht sehr groß, also musst du sehr genau schauen. Du suchst danach am besten vor dem Marienaltar!
-
-Wie viele Symbole kannst du dort insgesamt finden?
-
-{text input for: &#39;sacraments&#39;, required: true}
-[[Weiter -&gt; Test_Sacraments]]
-[continue]</tw-passagedata><tw-passagedata pid="24" name=" Sacraments_Hinweis1" tags="" position="550,1500" size="100,100">[CSS]
+[[Weiter -&gt;Weihwasserkessel]] </tw-passagedata><tw-passagedata pid="23" name=" Sacraments_Hinweis1" tags="" position="550,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -803,9 +785,8 @@ Wie viele Symbole kannst du dort insgesamt finden?
 
 Das Objekt, auf dem sich die Symbole befinden, ist sehr schwer und hat einen Deckel. Es steht in der Nähe des Marienaltars.
 
-{text input for: &#39;sacraments&#39;, required: true}
-[[Weiter -&gt; Test_Sacraments]]
-[continue]</tw-passagedata><tw-passagedata pid="25" name=" Bells_Hinweis1" tags="" position="550,1625" size="100,100">[CSS]
+[[Zurück -&gt;Weihwasserkessel]]
+[continue]</tw-passagedata><tw-passagedata pid="24" name=" Bells_Hinweis1" tags="" position="550,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -819,9 +800,8 @@ Das Objekt, auf dem sich die Symbole befinden, ist sehr schwer und hat einen Dec
 
 Bei dem Gesuchten handelt es sich um Musikinstrumente, die man zum Beispiel kurz vor der Messe hört. Sie befinden sich im Turm.
 
-{text input for: &#39;bells&#39;}
-[[Weiter -&gt; Test_Bells]]
-[continue]</tw-passagedata><tw-passagedata pid="26" name=" Ab 14 Jahren" tags="" position="1200,400" size="100,100">[CSS]
+[[Zurück -&gt; Glocken]] 
+[continue]</tw-passagedata><tw-passagedata pid="25" name=" Ab 14 Jahren" tags="" position="1200,400" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -838,7 +818,7 @@ Wir befinden uns im Jahr 1979. Die Kirche wird innen vollständig renoviert. Die
 
 Finde heraus, was hier gefunden wurde!
 
-[[Los -&gt;Orgel.Musik.schwer ]]</tw-passagedata><tw-passagedata pid="27" name=" Test_Kirchentür" tags="" position="450,975" size="100,100">[CSS]
+[[Los -&gt;Orgel.Musik.schwer ]]</tw-passagedata><tw-passagedata pid="26" name=" Test_Kirchentür" tags="" position="450,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -863,7 +843,7 @@ Naja, ganz richtig war das noch nicht. Schau dir äußere Kirchentür genauer an
 {back link, label: &#39;Zurück&#39;}
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="28" name="  Gotteslob" tags="" position="325,1100" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="27" name="  Gotteslob" tags="" position="325,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -884,9 +864,7 @@ Diese Zahlen sehen aus wie ein Code...Probier doch einmal aus, ob das schon die 
 
 {text input for: &#39;song_code&#39;, required: true}
 [[Weiter -&gt; Test_Song_Code]]
-[continue]</tw-passagedata><tw-passagedata pid="29" name="Hinweis_Spiel_leicht" tags="" position="700,350" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
---
-[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="28" name="Hinweis_Spiel_leicht" tags="" position="700,350" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -902,9 +880,7 @@ Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nic
 
 Danke und viel Spaß!
 
-[[Weiter -&gt; Ab 6 Jahren]]</tw-passagedata><tw-passagedata pid="30" name=" Ab 6 Jahren" tags="" position="550,400" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
---
-[CSS]
+[[Weiter -&gt; Ab 6 Jahren]]</tw-passagedata><tw-passagedata pid="29" name=" Ab 6 Jahren" tags="" position="550,400" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -922,9 +898,7 @@ Wir befinden uns im Jahr 1979. Die Kirche wird innen vollständig renoviert. Die
 
 Finde heraus, was hier gefunden wurde!
 
-[[Los -&gt; Kreuzweg]]</tw-passagedata><tw-passagedata pid="31" name=" Hinweis_Spiel_schwer" tags="" position="1050,350" size="100,100">config.footer.right: &#39;{back link, label: &quot;Zurück&quot;}&#39;
---
-[CSS]
+[[Los -&gt; Kreuzweg]]</tw-passagedata><tw-passagedata pid="30" name=" Hinweis_Spiel_schwer" tags="" position="1050,350" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -940,7 +914,7 @@ Bevor du zu spielen beginnst, ein kleiner Hinweis: Du bist vielleicht gerade nic
 
 Danke und viel Spaß!
 
-[[Weiter -&gt; Ab 14 Jahren]]</tw-passagedata><tw-passagedata pid="32" name="Orgel.Musik.schwer " tags="" position="1300,550" size="100,100">[CSS]
+[[Weiter -&gt; Ab 14 Jahren]]</tw-passagedata><tw-passagedata pid="31" name="Orgel.Musik.schwer " tags="" position="1300,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -966,7 +940,7 @@ Hör ganz genau hin!
 Die erste Vogelart hat fast dieselben Buchstaben wie ein sehr wichtiges Wort im Christentum.
 
 {text input for: &#39;amen&#39;}
-[[Weiter -&gt; Test_Orgel.Musik.schwer]]</tw-passagedata><tw-passagedata pid="33" name=" Weihwasserkessel.schwer" tags="" position="1300,675" size="100,100">[CSS]
+[[Weiter -&gt; Test_Orgel.Musik.schwer]]</tw-passagedata><tw-passagedata pid="32" name=" Weihwasserkessel.schwer" tags="" position="1225,700" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -993,7 +967,7 @@ Gesucht ist eine Zahl!
 [[Tipp -&gt; Weihwasserkessel.schwer.Tipp1]]
 
 {text input for: &#39;sacraments&#39;, required: false}
-[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="34" name=" Weihwasserkessel.schwer.Tipp1" tags="" position="1425,725" size="100,100">[CSS]
+[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="33" name=" Weihwasserkessel.schwer.Tipp1" tags="" position="1400,750" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1013,7 +987,7 @@ img {
 Dieses Symbol ist nicht das Einzige. Auf einem Objekt in der Kirche sind noch weitere, ähnliche zu zählen.
 
 {text input for: &#39;sacraments&#39;, required: false}
-[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="35" name=" Test_Sacraments.schwer" tags="" position="1550,675" size="100,100">[CSS]
+[[Weiter -&gt; Test_Sacraments.schwer]]</tw-passagedata><tw-passagedata pid="34" name=" Test_Sacraments.schwer" tags="" position="1550,675" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1040,7 +1014,7 @@ Die Sakramente sind Symbole für die Liebe Gottes, die immer mit uns ist. Die me
 Brauchst du einen Tipp? 
 
 [[Weiter -&gt; Weihwasserkessel.schwer.Tipp1]]
-[continue]</tw-passagedata><tw-passagedata pid="36" name=" Glocken.schwer" tags="" position="1300,975" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="35" name=" Glocken.schwer" tags="" position="1300,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1058,7 +1032,7 @@ Brauchst du einen Tipp?
 Vier Stimmen wachen nah beim Herrn,,&lt;br/&gt;rufen laut, doch nie von fern.&lt;br/&gt;Josef holt die Leute rein,&lt;br/&gt;Maria singt mit Engelein.&lt;br/&gt;Martin tut auch allen kund,&lt;br/&gt;Karl erklingt zur letzten Stund.&lt;br/&gt;Kennst du uns, so sage mir:&lt;br/&gt;Was sind wir?
 
 {text input for: &#39;bells&#39;}
-[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="37" name=" Test_Bells.schwer" tags="" position="1425,975" size="100,100">[CSS]
+[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="36" name=" Test_Bells.schwer" tags="" position="1425,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1081,7 +1055,7 @@ Richtig! Die Glocken mit den Namen Maria und Martin sind seit 1949 hier, Josef f
 Das ist leider falsch. Am besten bekommst du einen kleinen Tipp.
 
 [[Weiter -&gt; Bells.schwer_Tipp1]]
-[continue]</tw-passagedata><tw-passagedata pid="38" name=" Bells.schwer_Tipp1" tags="" position="1550,975" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="37" name=" Bells.schwer_Tipp1" tags="" position="1550,975" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1095,8 +1069,7 @@ Das ist leider falsch. Am besten bekommst du einen kleinen Tipp.
 
 Bei dem Gesuchten handelt es sich um Musikinstrumente, die man unter anderem vor oder während der Messe hören kann.
 
-{text input for: &#39;bells&#39;}
-[[Weiter -&gt; Test_Bells.schwer]]</tw-passagedata><tw-passagedata pid="39" name=" Tiere.schwer" tags="" position="1300,1100" size="100,100">[CSS]
+[[Zurück -&gt; Glocken.schwer]] </tw-passagedata><tw-passagedata pid="38" name=" Tiere.schwer" tags="" position="1300,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1127,7 +1100,7 @@ Wenn du hier auf jedes Tier tippst, ändert es sich. Tippe so oft darauf, sodass
 {cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
 
 
-[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata><tw-passagedata pid="40" name=" Test_Animals.schwer" tags="" position="1425,1100" size="100,100">[CSS]
+[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata><tw-passagedata pid="39" name=" Test_Animals.schwer" tags="" position="1425,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1161,7 +1134,7 @@ Das ist noch nicht ganz richtig, aber hier kommst du zu einem Tipp!
 
 
 [continued]
-</tw-passagedata><tw-passagedata pid="41" name=" Kreuzweg.schwer" tags="" position="1300,1500" size="100,100">[CSS]
+</tw-passagedata><tw-passagedata pid="40" name=" Kreuzweg.schwer" tags="" position="1300,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1189,7 +1162,7 @@ Du brauchst einen Zahlencode!
 &lt;img src=&#39;./img/faellt_erstes_Mal_3.jpg&#39; alt=&#39;Jesus fällt zum ersten Mal unter dem Kreuz&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
 
 {text input for: &#39;code&#39;, required: true}
-[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="42" name=" Test_Code.schwer" tags="" position="1450,1500" size="100,100">[CSS]
+[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="41" name=" Test_Code.schwer" tags="" position="1450,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1213,9 +1186,11 @@ Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich d
 
 [[Weiter -&gt; Code.schwer_Tipp1]]
 
+[[Zurück -&gt; Kreuzweg.schwer]] 
+
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="43" name=" Code.schwer_Tipp1" tags="" position="1575,1500" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="42" name=" Code.schwer_Tipp1" tags="" position="1575,1500" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1227,9 +1202,9 @@ Das ist leider nicht der richtige Code. Versuch es nochmal! Am besten gebe ich d
  
 [continued]
 
-Finde die Nummern der Kreuzwegstationen!
+Finde die Nummern der Kreuzwegstationen - verwende aber nicht die römischen Zahlen!
 
-[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="44" name=" Nothelfer.schwer" tags="" position="1300,1625" size="100,100">[CSS]
+[[Weiter -&gt; Test_Code.schwer]]</tw-passagedata><tw-passagedata pid="43" name=" Nothelfer.schwer" tags="" position="1300,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1251,7 +1226,7 @@ Die 14 Nothelfer sind Heilige aus dem 2. bis 4. Jahrhundert und sind fast alle M
 Stopp! Habe ich mich verzählt? Das sind doch nur 13 Namen! Den 14. Nothelfer kennst du bestimmt. Ein bestimmtes Transportmittel in Österreich trägt denselben Namen.
 
 {text input for: &#39;name_saint&#39;, required: true}
-[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="45" name=" Test_Name_Saint.schwer" tags="" position="1425,1625" size="100,100">[CSS]
+[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="44" name=" Test_Name_Saint.schwer" tags="" position="1425,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1283,7 +1258,7 @@ Der Name stimmt noch nicht ganz...Hier kommst du zu einem Tipp!
 
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="46" name=" Name_Saint.schwer_Tipp1" tags="" position="1575,1625" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="45" name=" Name_Saint.schwer_Tipp1" tags="" position="1575,1625" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1296,8 +1271,8 @@ Der Name stimmt noch nicht ganz...Hier kommst du zu einem Tipp!
 [continued]
 
 Das Transportmittel, das gemeint ist, ist ein Hubschrauber.
-
-[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="47" name=" Kirchentür.schwer" tags="" position="1300,1900" size="100,100">[CSS]
+{text input for: &#39;name_saint&#39;, required: true}
+[[Weiter -&gt; Test_Name_Saint.schwer]]</tw-passagedata><tw-passagedata pid="46" name=" Kirchentür.schwer" tags="" position="1300,1900" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1320,7 +1295,7 @@ Alpha: {dropdown menu for: &#39;alpha&#39;, choices: [&#39;&#39;,&#39;Θ&#39;, &
 
 Omega: {dropdown menu for: &#39;omega&#39;, choices: [&#39;&#39;,&#39;O&#39;, &#39;Ω&#39;, &#39;Ψ&#39;]}
 
-[[Weiter -&gt; Test_Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="48" name=" Test_Kirchentür.schwer" tags="" position="1450,1900" size="100,100">[CSS]
+[[Weiter -&gt; Test_Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="47" name=" Test_Kirchentür.schwer" tags="" position="1450,1900" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1345,7 +1320,7 @@ Naja, ganz richtig war das noch nicht. Sieh dir mal die Kirchentür an!
 {back link, label: &#39;Zurück&#39;}
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="49" name=" Gotteslob.schwer" tags="" position="1300,2050" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="48" name=" Gotteslob.schwer" tags="" position="1300,2050" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1367,7 +1342,7 @@ Naja, ganz richtig war das noch nicht. Sieh dir mal die Kirchentür an!
 {text input for: &#39;song_code&#39;, required: false}
 [[Weiter -&gt; Test_Song_Code.schwer]]
 
-[continue]</tw-passagedata><tw-passagedata pid="50" name=" Test_Song_Code.schwer" tags="" position="1550,2050" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="49" name=" Test_Song_Code.schwer" tags="" position="1550,2050" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1392,7 +1367,7 @@ Oje! Ich glaube, du brauchst noch einen Tipp.
 
 [continued]
 
-[continue]</tw-passagedata><tw-passagedata pid="51" name=" Gotteslob.schwer_Tipp1" tags="" position="1425,2050" size="100,100">[CSS]
+[continue]</tw-passagedata><tw-passagedata pid="50" name=" Gotteslob.schwer_Tipp1" tags="" position="1425,2050" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1406,7 +1381,7 @@ Oje! Ich glaube, du brauchst noch einen Tipp.
 
 Diese Zahlen gehören zu Liedern im Gotteslob. Sie sind noch nicht der Code, aber vielleicht verraten die Strophen mehr...
 
-{back link, label: &#39;Zurück&#39;}</tw-passagedata><tw-passagedata pid="52" name=" Ende.schwer" tags="" position="1425,2225" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
+{back link, label: &#39;Zurück&#39;}</tw-passagedata><tw-passagedata pid="51" name=" Ende.schwer" tags="" position="1425,2225" size="100,100">config.footer.right: &#39;[[Zurück zum Start -&gt;Startseite]] &#39;
 --
 [CSS]
 #page {
@@ -1429,8 +1404,13 @@ Es sind Spolien – Überreste einer römischen Siedlung, eingearbeitet in die F
 Spolien sind Bauteile, die aus einer früheren Zeit stammen und später in einem neuen Bauwerk wiederverwendet wurden. Die zwei Römersteine sind Grabsteine. Sie zeigen zum einen zwei Magistratsdiener eines Beamten aus St. Pölten, das damals Aelium Caetium hieß und zum anderen einen Amtsstuhl für höhere Magistraten in der römischen Antike, genannt sella curulis.
 
 Unter der Kirche, zwischen Mauern aus Mittelalter und Neuzeit, lag ein Schatz der Geschichte – und ihr habt ihn gefunden.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+[[Impressum]]
 
-Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.</tw-passagedata><tw-passagedata pid="53" name=" Geschichte2.schwer" tags="" position="1525,850" size="100,100">[CSS]
+Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsbereich der Kirche. Zwischen den zwei Türen findest du an beiden Wänden die antiken Funde.</tw-passagedata><tw-passagedata pid="52" name=" Geschichte2.schwer" tags="" position="1525,850" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1444,7 +1424,7 @@ Wenn du dir die Steine genauer anschauen möchtest, dann gehe in den Eingangsber
 
 In der Nacht nach dem Fund hört ein Arbeiter in der leeren Kirche ein seltsames Geräusch: Ein leises Kratzen. Er sieht Spuren im Staub – Fußabdrücke, wo niemand gegangen ist. Und mitten auf der Baustelle liegt ein alter, dreckverschmierter Zettel. Darauf nur zwei Worte, in krakeliger Schrift: „Sucht tiefer.“
 
-[[Weiter -&gt; Glocken.schwer]]</tw-passagedata><tw-passagedata pid="54" name=" Geschichte3.schwer" tags="" position="1300,1375" size="100,100">[CSS]
+[[Weiter -&gt; Glocken.schwer]]</tw-passagedata><tw-passagedata pid="53" name=" Geschichte3.schwer" tags="" position="1300,1375" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1460,7 +1440,7 @@ Tagsüber entdecken sie in einer Wand eingearbeitet seltsame Muster – Kreise, 
 
 Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher erkennt man die Steine – kunstvoll bearbeitet, seltsam kalt beim Anfassen.
 
-[[Weiter -&gt; Kreuzweg.schwer]]</tw-passagedata><tw-passagedata pid="55" name=" Geschichte4.schwer" tags="" position="1425,1775" size="100,100">[CSS]
+[[Weiter -&gt; Kreuzweg.schwer]]</tw-passagedata><tw-passagedata pid="54" name=" Geschichte4.schwer" tags="" position="1425,1775" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1474,7 +1454,7 @@ Niemand will ihm glauben. Doch je weiter die Arbeiten gehen, desto deutlicher er
  
 Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt.
 
-[[Weiter -&gt; Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="56" name=" Test_Orgel.Musik" tags="" position="475,1225" size="100,100">[CSS]
+[[Weiter -&gt; Kirchentür.schwer]]</tw-passagedata><tw-passagedata pid="55" name=" Test_Orgel.Musik" tags="" position="475,1225" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1503,7 +1483,7 @@ Hm...Die erste Vogelart, die in dem Lied vorkommt, ist eine Amsel. Wenn du das s
 [continued]
 
 [continue]
-</tw-passagedata><tw-passagedata pid="57" name=" Animals_Hinweis1" tags="" position="550,1925" size="100,100">[CSS]
+</tw-passagedata><tw-passagedata pid="56" name=" Animals_Hinweis1" tags="" position="550,1925" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1526,7 +1506,7 @@ Zwei Tiere findest du beim Hochaltar, eines in der Kanzel und eines bei der Oste
 {cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
 
 
-[[Weiter -&gt; Test_Animals]]</tw-passagedata><tw-passagedata pid="58" name=" Test_Orgel.Musik.schwer" tags="" position="1425,550" size="100,100">[CSS]
+[[Weiter -&gt; Test_Animals]]</tw-passagedata><tw-passagedata pid="57" name=" Test_Orgel.Musik.schwer" tags="" position="1425,550" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1555,7 +1535,7 @@ Hm...Die erste Vogelart, die in dem Lied vorkommt, ist eine Amsel. Die ersten zw
 [continued]
 
 [continue]
-</tw-passagedata><tw-passagedata pid="59" name=" Animals.schwer_Tipp1" tags="" position="1550,1100" size="100,100">[CSS]
+</tw-passagedata><tw-passagedata pid="58" name=" Animals.schwer_Tipp1" tags="" position="1550,1100" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1578,7 +1558,7 @@ Die Tiere befinden sich im vorderen Teil der Kirche.
 {cycling link for: &#39;animal4&#39;, choices: [&#39;Wombat&#39;, &#39;Lamm&#39;, &#39;Ziege&#39;, &#39;Giraffe&#39;]}
 
 
-[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata><tw-passagedata pid="60" name=" Geschichte4" tags="" position="400,1775" size="100,100">[CSS]
+[[Weiter -&gt; Test_Animals.schwer]]</tw-passagedata><tw-passagedata pid="59" name=" Geschichte4" tags="" position="400,1775" size="100,100">[CSS]
 #page {
   background-color: #a41c5c;
 }
@@ -1592,4 +1572,32 @@ Die Tiere befinden sich im vorderen Teil der Kirche.
  
 Beim weiteren Graben erkenne sie, dass es sich um zwei große, verstaubte Blöcke, handelt.
 
-[[Weiter -&gt; Tiere]]</tw-passagedata></tw-storydata></html>
+[[Weiter -&gt; Tiere]]</tw-passagedata><tw-passagedata pid="60" name="Weihwasserkessel" tags="" position="275,1475" size="100,100">[CSS]
+#page {
+  background-color: #a41c5c;
+}
+
+#backdrop {
+  background-color: white;
+  color: white;
+ }
+ 
+img {
+  display: block;
+  margin: auto;
+ }
+ 
+[continued]
+ 
+  &lt;label for=&quot;game&quot;&gt;Fortschritt:&lt;/label&gt;
+ &lt;progress id=&quot;game&quot; value=&quot;60&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt;
+
+&lt;img src=&#39;./img/eucharistie.jpg&#39; alt=&#39;Symbol für das Sakrament der Eucharistie&#39; width=&#39;200&#39; height=&#39;200&#39;/&gt;
+
+Dieses Symbol findest du irgendwo in der Kirche. Es ist nicht sehr groß, also musst du sehr genau schauen. Du suchst danach am besten vor dem Marienaltar!
+
+Wie viele Symbole kannst du dort insgesamt finden?
+
+{text input for: &#39;sacraments&#39;, required: true}
+[[Weiter -&gt; Test_Sacraments]]
+[continue]</tw-passagedata></tw-storydata></html>
